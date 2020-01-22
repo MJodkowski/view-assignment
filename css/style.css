@@ -1,0 +1,129 @@
+.logo-icon {
+    background: url('../icons/logo.svg');
+    height: 18px;
+    width: 63.82px;
+}
+
+.menu-icon {
+  background: url('../icons/menu-icon.svg');
+  height: 19.5px;
+  width: 22px;
+}
+
+.location-icon {
+  background: url('../icons/location-icon.svg');
+  height:12px;
+  width:7.195px;
+  margin: 0 calc((10.195px - 7.195px) / 2);
+}
+
+.source-icon {
+  background: url('../icons/source-icon.svg');
+  height: 10.201px;
+  width: 10.195px;
+}
+
+.category-icon {
+  background: url('../icons/category-icon.svg');
+  height: 10.254px;
+  width: 10.248px;
+}
+.top-toolbar {
+  background: transparent radial-gradient(circle 600px at 20%, #3184FF 0%, #111D2E 100%) 0% 0% no-repeat padding-box;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  margin-left: 5%;
+}
+
+.main-header {
+  font-family: Montserrat, sans-serif !important;
+  font-weight: 800 !important;
+}
+
+.switch-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.product-header {
+  font-family: Montserrat, sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 18px !important;
+  margin-bottom: 5px !important;
+}
+
+.product-header-container {
+  width: 90%;
+}
+
+.product-time {
+  text-align: right;
+}
+
+.last-product-row {
+  margin-bottom: 15px;
+}
+
+.tile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.product-description-col {
+  margin-left: 5%;
+}
+
+.product-paragraph, .product-icon-label {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.img-container {
+  display: flex;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-description-hr {
+    border-top: 1px solid #CB2F3A;
+    margin-top: 5px;
+}
+
+.button-carousel {
+  padding: 5px;
+  width: 100%; 
+  position:fixed; 
+  bottom: 0; 
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.61);
+}
+
+.carousel-button {
+  width: 95%;
+  text-transform: none;
+  border: 1px solid #AABEF8;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  opacity: 1;
+}
+
+.carousel-button-active {
+  color: white;
+  background-color: #3184FF;
+  border: none;
+  border-radius: 25px;
+  opacity: 1;
+}
